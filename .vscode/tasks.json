@@ -1,0 +1,8 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "Build frontend", "type": "shell", "command": "npm.cmd install; npm.cmd run build", "options": { "cwd": "${workspaceFolder}/frontend" }, "problemMatcher": [] },
+    { "label": "Build WAR", "type": "shell", "command": "mvn -q clean package", "options": { "cwd": "${workspaceFolder}/backend" }, "problemMatcher": [] },
+    { "label": "Run CareConnect (terminal)", "type": "shell", "command": ".\\run.cmd", "options": { "cwd": "${workspaceFolder}" }, "problemMatcher": [] }
+  ]
+}

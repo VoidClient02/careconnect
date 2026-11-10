@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CareConnect: embedded Tomcat + DB",
+      "request": "launch",
+      "mainClass": "com.careconnect.DevServer",
+      "projectName": "careconnect",
+      "cwd": "${workspaceFolder}/backend",
+      "preLaunchTask": "Build frontend"
+    }
+  ]
+}

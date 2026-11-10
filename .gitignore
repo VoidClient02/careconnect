@@ -1,0 +1,5 @@
+backend/target/
+backend/dev-data/
+frontend/node_modules/
+backend/src/main/webapp/ui/
+.tools/
